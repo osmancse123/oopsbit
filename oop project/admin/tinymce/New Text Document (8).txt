@@ -1,0 +1,7 @@
+<script src='tinymce/tinymce.min.js'></script>
+
+  <script type="text/javascript">
+    tinymce.init({
+    selector: '#myTextarea'
+});
+  </script>

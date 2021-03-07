@@ -1,0 +1,30 @@
+
+.goToTop {
+  position: fixed;
+  top: 0;
+  height: 70px;
+  z-index: 1;
+}
+
+nav {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+nav li { }
+
+
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+	background:#7AD094;
+}
+
+.navbar-toggle {
+    background-color: #fff;
+}
+
+
+		.img-responsive{height:50px; width:100px;}
+.item1{height:320px;}

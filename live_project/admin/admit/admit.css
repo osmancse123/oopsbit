@@ -1,0 +1,48 @@
+*{margin:0px; padding:0px;}
+.allbody{height:650px;   background:#f4f4f4; padding-top:5px; border:1px #0066FF solid;}
+
+.admitbody{height:640px; width:1000px; background:#FFFFFF; margin-top:3px; padding-top:5px;}
+
+.admitheader{height:110px; width:90%;  border:2px #CCCCCC solid; border-bottom:1px #999999 solid; border-right:1px #999999 solid; }
+.headerimg{ height:80px; width:15%; float:left; clear:right; padding:2px;}
+
+.headerimg img { padding-top:7px; }
+.headertext{height:100%; width:80%; float:right;}
+
+.headertext h2{color:#000000; font-size:24px; font-family:"Times New Roman", Times, serif; text-align:left; padding-top:20px;}
+.headertext h3{ color:#000000; font-size:16px; font-family:"Times New Roman", Times, serif; text-align:left;}
+
+.menutext{height:40px; width:90%;  background:#FFFFFF;}
+
+.menutext h5{color:#000000; font-size:20px; text-align:center; padding-top:5px; font-weight:bold; font-family:"Times New Roman", Times, serif;}
+.admitmid{height:300px; width:90%;  border:1px #CCCCCC solid; border-bottom:1px #666666 solid; border-right:1px #999999 solid;}
+
+.leftdiv{ width:25%; float:left; clear:right;}
+
+.leftdiv h2 { color:#000000; font-size:18px; padding-left:20px; padding-top:10px; font-weight:600; text-align:left;}
+
+.leftdiv h5{color:#666666; font-size:15px; padding-left:20px; padding-top:10px; text-align:left;} 
+
+
+
+.middiv{height:100%; width:40%; float:left; clear:right; }
+.middiv h2 { color:#000000; font-size:18px; padding-left:20px;  padding-top:10px; font-weight:600; text-align:left;}
+.middiv h5{color:#666666; font-size:15px; padding-left:20px;  padding-top:10px;} 
+.rightdiv{height:100%; width:30%; float:right; }
+.rightdiv img{margin-top:10px; margin-left:85px;}
+.datdiv{height:40px; width:90%; margin-left:53px; background:#FFFFFF;}
+.leftdatdiv{height:100%; width:40%; float:left; clear:right}
+.leftdatdiv h5{color:#282828; font-size:13px; padding-top:5px;}
+.rightdatdiv{height:100%; width:60%; float:right; }
+.rightdatdiv h5{color:#282828; font-size:13px; padding-top:5px;text-align:right}
+.downtitlediv{height:30px; width:100%;  background:#f4f4f4;}
+.downtitlediv h5{ color:#000000; font-size:16px; text-align:center; padding-top:7px;}
+.footerdiv{height:80px; width:100%; margin-top:1px; background:#fff;}
+
+.leftfooterdiv{height:100%; width:5%;float:left; clear:right;}
+.rightfooterdiv{height:100%; width:95%; float:right;}
+.downfooterdiv{height:30px; width:90%;  background:#ccc;}
+
+.downfooterdiv h2{color:#000000;text-align:right; padding-top:65px; font-size:18px;}
+.atediv{height:30px; width:90%; border:2px #CCCCCC solid; border-bottom:1px #999999 solid; border-right:1px #999999 solid;}
+.atediv h2{color:#000000;padding-top:55px; padding-left:15px; color:#666666; font-size:15px;}

@@ -1,0 +1,326 @@
+@import url('http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:400,600,700'); 
+@import url('font-awesome.css');  
+
+
+#fristheading{
+background:#000000;
+	margin:0px; padding:0px;
+	
+}
+
+.menulink{
+		font-size:10px;
+		color:#FFFFFF;
+		text-decoration:none;
+}
+.menulink:hover{
+		text-decoration:none;
+		color:#ffffff;
+}
+
+#searchtext{
+		width:180px;
+}
+#gobutton{
+		background:#006600;
+		color:#FFFFFF;
+		border:#006600 1px solid;
+		font-weight:bold;
+}
+
+
+	#grad {
+
+  background-image:url(../../img/bg_notice_board.png);
+      background-repeat: no-repeat;
+
+}
+
+
+#sliderdiv{
+
+z-index:2}
+#middiv{
+
+z-index:1;}
+
+.noticeul{
+		margin:0px;
+		padding:0px;
+		
+}
+.noticeul li{
+			
+			list-style:none;
+			padding-top:5px;
+			padding-left:20px;
+}
+.noticeul li a {
+		
+		font-family:"Times New Roman", Times, serif;
+		color:#000000;
+		font-size:14px;
+}
+
+#introduced{
+		height:30px; 
+		background:#302f95;
+		padding-top:5px;
+		margin-top:10px;
+}
+
+
+#introduced span {
+		font-size:15px; 
+		padding-left:20px;
+		font-family:"Times New Roman", Times, serif;
+		font-weight:bold;
+		color:#FFFFFF;
+}
+#introduced a{
+font-size:15px; 
+		padding-left:20px;
+	text-decoration:underline;
+		font-weight:bold;
+		color:#FFFFFF;
+		font-family:"Times New Roman", Times, serif;
+}
+#bigintroduced{
+		height:55px; 
+		background:#609513;
+		padding-top:5px;
+		margin-top:10px;
+}
+
+#bigintroduced span {
+		font-size:15px; 
+		font-family:"Times New Roman", Times, serif;
+		font-weight:bold;
+		color:#FFFFFF;
+}
+
+#alllink {
+	height:30px; 
+	
+		padding-top:5px;
+		margin-top:10px;
+		text-align:center;
+		background: #BBBBBB ; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(top,#E9E9E9 , #BBBBBB  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(top,#E9E9E9, #BBBBBB); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(top,#E9E9E9, #BBBBBB); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to top, #E9E9E9,#BBBBBB ); /* Standard syntax */
+  font-family:"Times New Roman", Times, serif;
+}
+#alllink   a {
+		font-size:14px; 
+		
+		text-decoration:underline;
+		color:black;
+}
+
+#bodyDiv{
+		border-radius:0px;
+		position: relative;
+   		box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+   background: #f5f5f5;
+	
+	
+		
+}
+
+.spantext{
+		
+		    font-family: "Georgia", "Times New Roman", serif;
+			color:black;
+			padding-top:0px;
+			font-size:18px;
+}	
+
+#middivul {
+	margin:0px;
+	padding:0px;
+}
+
+#midul li{
+		list-style:none;
+		line-height:25px;
+		}
+#midul li a{
+		color:black;
+		font-size:12px;
+}
+#midul li a i{
+		color:grey;
+		font-size:10px;
+}
+
+.footer{
+		background:#ebebeb;
+		
+		border-radius:0px;
+}
+
+#footermenu   {
+	float: left;
+	padding:0;
+	margin:0;
+	list-style: none;
+	position: relative;
+	padding-top:15px;
+	padding-left:20px;
+	}
+	
+/* Positioning the navigation items inline */
+#footermenu li {
+	margin: 0px;
+	display:inline-block;
+	float: left;
+	background-color:#ebebeb;
+	border-right:1px #999999 solid;
+	
+	}
+
+/* Styling the links */
+#footermenu  li a {
+	display:block;
+	padding:5px 10px;	
+	color:black;
+	font-size:14px;
+	text-decoration:none;
+}
+
+
+#footermenu  li a:hover { background: #000000; color:#FFFFFF; }
+
+.topfooter {
+ 	background:#000000;
+    height: 100px;
+    clear: both;
+	
+}
+
+#details{
+		color:#000000;
+		padding-top:120px;
+}
+
+
+#rightblock{
+		margin:0px;
+		padding-top:10px;
+}
+#rightblock ul {
+			margin:0px;
+			padding:0px;
+}
+#rightblock ul li {
+			list-style:none;
+			
+			padding-left:5px;
+			padding-top:2px;
+			display:block;
+			width:100%;
+			
+}
+#rightblock ul li a {
+		font-family:"Times New Roman", Times, serif;
+		 color:black;
+		 font-weight:400;
+		 font-size:14px;
+}
+#rightblock ul li a i {
+color:#302f95; font-weight:400;
+		 font-size:13px;
+}
+#tophr{
+		margin:0px;
+		padding:0px;
+		border-top:2px #CCCCCC solid;
+		margin-top:5px;
+		
+}
+
+
+#noticetopdiv{
+		background:#302f95;
+		height:50px;
+		padding-top:12px;
+		border-right:1px #CCCCCC solid;
+}
+#noticetopdiv span {
+		 font-size:14px;
+		 color:#FFFFFF;
+}
+
+
+#colordiv{
+		
+			float:left;
+			clear:right;
+			width:30px;
+			background:#fff;
+			text-align:center;
+			height:25px;
+			padding-top:2px;
+			font-family:"Times New Roman", Times, serif;
+			font-weight:400;
+		
+}
+#colordivone{
+		
+			
+			float:left;
+			clear:right;
+			width:30px;
+			background:#cfe5fc;
+			text-align:center;
+			height:25px;
+			padding-top:2px;
+			font-family:"Times New Roman", Times, serif;
+			font-weight:400;
+			margin-left:3px;
+}
+#colordivtwo{
+		
+					
+			float:left;
+			clear:right;
+			width:30px;
+			background:#2f2f2f;
+			text-align:center;
+			height:25px;
+			padding-top:2px;
+			font-family:"Times New Roman", Times, serif;
+			font-weight:400;
+			margin-left:3px;
+			color:white;
+}
+#colordivthree{
+		
+						
+			float:left;
+			clear:right;
+			width:30px;
+			background:#f7f3d6;
+			text-align:center;
+			height:25px;
+			padding-top:2px;
+			font-family:"Times New Roman", Times, serif;
+			font-weight:400;
+			margin-left:3px;
+}
+
+#studentview ul{
+		 margin:0px; padding:0px;
+}
+
+#studentview ul li{
+		list-style:none;
+		padding-left:10px;
+		color:#000000;
+		height:30px;
+		padding-top:10px;
+		
+}
+

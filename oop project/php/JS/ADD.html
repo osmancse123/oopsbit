@@ -1,0 +1,53 @@
+<script type="text/javascript">
+	function add_twoNumber()
+	{
+		var x=parseInt(document.frm.x.value);
+		var y=parseInt(document.frm.y.value);
+		
+		var z=x+y;
+		document.frm.z.value=z;
+
+	}	
+
+	function sub_twoNumber()
+	{
+		var x=parseInt(document.frm.x.value);
+		var y=parseInt(document.frm.y.value);
+		
+		var z=x-y;
+		document.frm.z.value=z;
+
+
+	}
+
+function mux_twoNumber2()
+	{
+		var x=document.frm.x.value;
+		var y=document.frm.y.value;
+		
+		var z=x*y;
+		document.frm.z.value=z;
+
+
+	}
+
+
+</script>
+
+
+<html>
+<head>
+	<title>add</title>
+</head>
+<body>
+<form name="frm" method="post">
+	<input type="text" name="x"><br>
+	<input type="text" name="y"><br>
+	<input type="text" name="z"><br>
+
+	<input type="button" name="add" value="Add" onclick="return add_twoNumber();">
+	<input type="button" name="sub" value="sub" onclick="return sub_twoNumber();">
+	<input type="button" name="sub" value="mux" onclick="return mux_twoNumber2();">
+</form>
+</body>
+</html>
